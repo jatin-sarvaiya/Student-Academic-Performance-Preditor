@@ -1,0 +1,15 @@
+Top 5 Features Driving Pass/Fail Predictions
+
+==================================================
+1. Grade Period 2 — mean |SHAP| = 4.5964  (overall positive effect on passing)
+2. Father Job Other — mean |SHAP| = 0.7500  (overall negative effect on passing)
+3. Grade Period 1 — mean |SHAP| = 0.7411  (overall positive effect on passing)
+4. Weekend Alcohol — mean |SHAP| = 0.6110  (overall negative effect on passing)
+5. Absences — mean |SHAP| = 0.6074  (overall negative effect on passing)
+
+Summary
+-------
+The model's predictions are most strongly influenced by the following student characteristics:
+(1) Grade Period 2, (2) Father Job Other, (3) Grade Period 1, (4) Weekend Alcohol, and (5) Absences.
+
+Students with more past failures and higher absenteeism tend to have significantly higher predicted risk of failing. Conversely, higher study time, parental education level, and aspirations for higher education are strongly associated with better outcomes.

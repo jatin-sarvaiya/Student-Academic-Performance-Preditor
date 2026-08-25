@@ -1,0 +1,5 @@
+Model,CV F1,Test Accuracy,Test Precision,Test Recall,Test F1,Test ROC-AUC,Best Params
+XGBoost,0.9555,0.8861,0.9583,0.8679,0.9109,0.9303,"{'subsample': 0.8, 'scale_pos_weight': 3, 'n_estimators': 300, 'max_depth': 7, 'learning_rate': 0.1, 'colsample_bytree': 1.0}"
+Logistic Regression,0.9471,0.8734,0.9574,0.8491,0.9,0.9528,"{'solver': 'lbfgs', 'penalty': 'l2', 'C': 10}"
+Random Forest,0.9494,0.8608,0.9565,0.8302,0.8889,0.9448,"{'n_estimators': 100, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'log2', 'max_depth': 15}"
+Decision Tree,0.9387,0.8354,0.9545,0.7925,0.866,0.9017,"{'min_samples_split': 10, 'min_samples_leaf': 4, 'max_depth': 7, 'criterion': 'gini'}"

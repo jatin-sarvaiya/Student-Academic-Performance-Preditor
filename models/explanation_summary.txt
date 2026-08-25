@@ -1,0 +1,5 @@
+Based on the trained Random Forest model and SHAP explainability analysis, the top 3 features that drive student pass/fail predictions are:
+
+1. Failures (failures): representing the student's history of class failures (higher failures lead to higher fail risk).
+2. Goout (goout): representing how often the student goes out with friends (excessive socializing tends to increase fail risk).
+3. Absences (absences): representing the frequency of school absences (more absences negatively affect the chance of passing).
